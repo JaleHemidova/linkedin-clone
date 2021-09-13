@@ -1,0 +1,35 @@
+#logo{
+    color: #0A66C2;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#logo-icon{
+    margin-left: 3px;
+}
+
+#join-now-link{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#join-now-link:hover{
+    color: #171717;
+    background-color: #EBEBEB;
+    transition: 0.3s;
+}
+
+#sign-in-link{
+    padding: 6px 22px;
+    color: #0A66C2;
+    font-weight: 600;
+    border: 1.5px solid #0A66C2;
+    border-radius: 20px;
+}
+
+#sign-in-link:hover{
+    background-color: #EAF4FE;
+    transition: 0.3s;
+    box-shadow: inset 0 0 0 1px #0a66c2;
+}

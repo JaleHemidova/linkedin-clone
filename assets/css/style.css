@@ -61,7 +61,7 @@
     margin-top: -100px;
     padding: 150px 0;
 }
-.find{
+#searches h2{
     font-size: 48px;
     font-weight: 300;
 }
@@ -70,7 +70,7 @@
     font-size: 16px;
     font-weight: 500;
 }
-#links a{
+#links a, #post a{
     background-color: rgba(0, 0, 0, 0.08);
     color: rgba(0, 0, 0, 0.6);
     font-size: 20px;
@@ -80,4 +80,38 @@
     border-radius: 30px;  
     margin: 6px 1px;
     display: inline-block;
+}
+#post a{    
+    
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.6);;
+}
+#links a:hover, #post a:hover{
+    background-color: rgba(0,0,0,0.2);
+    text-decoration: underline;
+}
+#post a:hover{
+    background-color: #C1BDB7;
+}
+#show-more, #show-less{
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,0.6);
+    font-weight: 600;
+    border-radius: 4px;
+}
+#show-more:hover, #show-less:hover{
+    background-color: rgba(0,0,0,0.08);
+    color: rgba(0,0,0,0.9);
+    transition: 0.2s;
+}
+/* Section post */
+#post{
+    background-color: #F1ECE5;
+    padding: 75px 0;
+}
+#post h2{
+    font-size: 42px;
+    font-weight: 400;
+    color: #B24020;
 }

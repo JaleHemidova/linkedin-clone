@@ -61,7 +61,7 @@
     margin-top: -100px;
     padding: 150px 0;
 }
-#searches h2{
+#searches h2, #connect h2{
     font-size: 48px;
     font-weight: 300;
 }
@@ -70,7 +70,7 @@
     font-size: 16px;
     font-weight: 500;
 }
-#links a, #post a{
+#links a, #post a,  #connect a{
     background-color: rgba(0, 0, 0, 0.08);
     color: rgba(0, 0, 0, 0.6);
     font-size: 20px;
@@ -81,16 +81,15 @@
     margin: 6px 1px;
     display: inline-block;
 }
-#post a{    
-    
+#post a, #connect a{       
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.6);;
 }
-#links a:hover, #post a:hover{
+#links a:hover, #post a:hover, #connect a:hover{
     background-color: rgba(0,0,0,0.2);
     text-decoration: underline;
 }
-#post a:hover{
+#post a:hover, #connect a:hover{
     background-color: #C1BDB7;
 }
 #show-more, #show-less{
@@ -114,4 +113,54 @@
     font-size: 42px;
     font-weight: 400;
     color: #B24020;
+}
+/* section open */
+#functions{
+    padding: 150px 0;
+    background-color: #FAF9F7;
+}
+
+#functions h2{
+    color: #2977c9;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#functions p{
+    color: rgba(0,0,0,0.9);
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 40px;
+}
+
+#functions .btn-link{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    border: none;
+}
+
+#functions .btn-link:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(207,207,207,0.25);
+}
+
+#functions .btn-link.disabled {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#functions img{
+    width: 85%;
+    margin-top: -50px;
+}
+
+/* section connect */
+#connect{
+    padding: 125px 0;
+}
+#connect img{
+    width:55%;
+}
+#connect .col-6 div{
+    width: 80%;
 }

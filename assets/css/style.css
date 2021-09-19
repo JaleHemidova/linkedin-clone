@@ -70,7 +70,7 @@
     font-size: 16px;
     font-weight: 500;
 }
-#links a, #post a,  #left{
+#links a, #post a, #left, #get-started a{
     background-color: rgba(0, 0, 0, 0.08);
     color: rgba(0, 0, 0, 0.6);
     font-size: 20px;
@@ -81,6 +81,7 @@
     margin: 6px 1px;
     display: inline-block;
 }
+
 #post a, #left{       
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.6);;
@@ -158,30 +159,96 @@
 #connect{
     padding: 125px 0;
 }
+
 #connect img{
     width:55%;
 }
+
 #connect .col-6 div{
     width: 80%;
 }
+
 #dropdownMenuButton{
     border: 1px solid rgba(0, 0, 0, 0.15);
 }
+
+#dropdownMenuButton:hover{
+    background-color: rgba(0,0,0,0.08);
+}
+
 .dropdown-menu{
     width: 74% !important;
     height: 300px !important;
     overflow:scroll;
 }
+
 #connect .dropdown-item:hover{
     background-color: transparent;
     text-decoration: underline;
 }
+
 .first{
     font-weight: 600;
     color: rgba(0,0,0,0.9);
 }
+
 .second{
     font-weight: 400;
     color: rgba(0,0,0,0.6);
-    
+}
+
+/* section forward */
+
+#forward{
+    padding: 225px 300px;
+    background-color: #F4FAFF;
+    padding-right: 180px;
+    /* z-index: -1; */
+    position: relative;
+}
+
+#forward h2 {
+    color: #B24020;
+    font-size: 40px;
+    font-weight: 400;    
+}
+
+#forward h3 {
+    color: rgba(0,0,0,0.9);
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#yt-video{
+    /* margin-top: 150px;
+    margin-left: 175px; */
+    position: absolute;
+    left: -325px;
+    top: 160px;
+    border-radius: 5px;
+}
+
+/* Section join */
+#get-started{
+    margin-top: 60px;
+    padding: 80px 0;
+    height: 840px;
+    background-image: url(https://static-exp1.licdn.com/sc/h/2vt8plqbv2l2pi6kxm89bqs59);
+    background-size:cover;
+    background-position: center;
+}
+#get-started h2{
+    font-size: 55px;
+    font-weight: 200;
+}
+
+#get-started a{
+    background-color: #0a66c2;
+    color: #fff;
+    font-weight: 400;
+}
+
+#get-started a:hover{
+    background-color: #004182;
+    text-decoration: underline;
 }

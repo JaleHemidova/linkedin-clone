@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 #logo{
     color: #0A66C2;
     font-weight: bold;
@@ -336,4 +340,143 @@ footer .dropdown-item{
 footer .dropdown-item:hover{
     color: white !important;
     background-color: #0a66c2;
+}
+
+
+@media (max-width: 1200px) { 
+    #links > div{
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+    #links a{
+        font-size: 18px;
+    }
+    #functions h2{
+        font-size: 38px;
+    }
+    #functions p{
+        font-size: 30px;
+    }
+    #functions img{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 992px) { 
+    #logo{
+        font-size: 22px;
+    }
+    #logo-icon{
+        margin-left: 2px;
+    }
+    #navbarSupportedContent{
+        font-size: 14px;
+    }
+    #searches h2{
+        font-size: 42px;
+    }
+    #searches{
+        padding-top: 125px;
+        padding-bottom: 75px;
+    }
+    #welcome{
+        margin-top: 20px !important;
+        margin-bottom: 25px !important;
+    }
+    #post-left{
+        width: 60%;
+    }
+    #post-right{
+        width: 40%;
+    }
+    #functions h2{
+        font-size: 34px;
+    }
+    #functions p{
+        font-size: 26px;
+    }
+    #functions img{
+        margin-top: 95px;
+    }
+}
+
+@media (min-width: 769px) {
+    #header-left-div{
+        width: 50%;
+    }   
+    #header-left-div + div{
+        width: 50%;
+    }
+    #functions-left, #functions-right{
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) { 
+    #welcome{
+        font-size: 48px;
+    }
+    #header-image{
+        width: 75%;
+        height: 325px;
+    }
+    #header-left-div{
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    #header-left-div + div{
+        width: 100%;
+    }   
+    #welcome + ul {
+        width: 100% !important;
+    }
+    #searches h2{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    #post h2{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    #post-left, #post-right{
+        width: 100%;
+    }
+    #post-left{
+        margin-bottom: -30px;
+    }
+    #post a{
+        padding: 8px 20px;
+    }
+    #functions h2{
+        font-size: 34px;
+    }
+    #functions p{
+        font-size: 26px;
+    }
+    #functions img{
+        width: 70%;
+        margin-top: 10px;
+    }
+    #functions-right{
+        text-align: center;
+    }
+    #functions-left, #functions-right{
+        width: 100%;
+    }
+    #functions{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    #prev-next{
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 576px) { 
+    #welcome{
+        font-size: 44px;
+    }
+    #navbarSupportedContent{
+        font-size: 12px;
+    }
 }

@@ -15,14 +15,9 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand navbar-light bg-white">
             <div class="container">
                 <a id="logo" class="navbar-brand" href="#">Linked<i id="logo-icon" class="fab fa-linkedin"></i></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
@@ -38,7 +33,7 @@
         </nav>
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div id="header-left-div" class="px-3">
                     <h1 id="welcome" class="mb-5 mt-5">Welcome to your professional community</h1>
                     <ul class="list-group w-75">
                         <li class="list-group-item rounded d-flex justify-content-between p-3">
@@ -55,7 +50,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-6">
+                <div class="text-center">
                     <img id="header-image" src="https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4" alt="">
                 </div>
             </div>
@@ -64,10 +59,10 @@
     <section id="searches">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-xl-5 px-3">
                     <h2>Find the right job or internship for you</h2>
                 </div>
-                <div class="col-7" id="links">
+                <div class="col-xl-7 px-3" id="links">
                     <div class="ml-4">
                         <h5>SUGGESTED SEARCHES</h5>
                         <div>
@@ -77,8 +72,8 @@
                             <a href="" class="btn btn-secondary">Administrative Assistant</a>
                             <a href="" class="btn btn-secondary">Retail Associate</a>
                             <a href="" class="btn btn-secondary">Customer Service</a>
-                            <a href="" class="btn btn-secondary">Operations</a>
                             <a href="" class="btn btn-secondary">Information Technology</a>
+                            <a href="" class="btn btn-secondary">Operations</a>
                             <a href="" class="btn btn-secondary">Marketing</a>
                             <a href="" class="btn btn-secondary">Human Resources</a>
                         </div>
@@ -115,10 +110,10 @@
     <section id="post">
         <div class="container">
             <div class="row">
-                <div class="col-5">
-                    <h2 class="post job">Post your job for millions of people to see</h2>
+                <div class="col-lg-5" id="post-left">
+                    <h2>Post your job for millions of people to see</h2>
                 </div>
-                <div class="col-7">
+                <div class="col-lg-7" id="post-right">
                     <a href="" class="btn btn-secondary mt-5">Post a job</a>
                 </div>
             </div>
@@ -126,17 +121,16 @@
     </section>
     <section id="functions">
         <div class="container">
-            <div class="mb-5">
+            <div class="mb-5" id="prev-next">
                 <a href="#" class="btn btn-link disabled"><i class="fas fa-chevron-left px-1"></i> Previous</a>
                 <a href="#" class="btn btn-link">Next <i class="fas fa-chevron-right px-1"></i></a>
             </div>
             <div class="row">
-                <div class="col-6 mt-5">
+                <div class="mt-5" id="functions-left">
                     <h2>Let the right people know you’re open to work</h2>
-                    <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the
-                        LinkedIn community that you are looking for new job opportunities</p>
+                    <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities</p>
                 </div>
-                <div class="col-6">
+                <div id="functions-right">
                     <img src="./assets/images/dbvmk0tsk0o0hd59fi64z3own.png" class="ml-5" alt="">
                 </div>
             </div>
@@ -432,8 +426,8 @@
                         <a href="" class="ml-3">Community Guidelines</a>
                     </div>
                     <div class="dropdown ml-3">
-                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton-2"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton-2" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             Language
                         </button>
                         <div class="dropdown-menu pt-0" aria-labelledby="dropdownMenuButton">
@@ -447,17 +441,17 @@
                             <a class="dropdown-item p-2" href="#">한국어 (Korean)</a>
                             <a class="dropdown-item p-2" href="#">Português (Portuguese)</a>
                             <a class="dropdown-item p-2" href="#">Русский (Russian)</a>
-                            <a class="dropdown-item p-2" href="#">Türkçe (Turkish)<a>                    
-                            <a class="dropdown-item p-2" href="#">简体中文 (Chinese)<a>
-                            <a class="dropdown-item p-2" href="#">Svenska (Swedish)<a> 
-                            <a class="dropdown-item p-2" href="#">Polski (Polish)<a>    
+                            <a class="dropdown-item p-2" href="#">Türkçe (Turkish)<a>
+                                    <a class="dropdown-item p-2" href="#">简体中文 (Chinese)<a>
+                                            <a class="dropdown-item p-2" href="#">Svenska (Swedish)<a>
+                                                    <a class="dropdown-item p-2" href="#">Polski (Polish)<a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

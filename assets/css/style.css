@@ -167,7 +167,7 @@ body{
     width:55%;
 }
 
-#connect .col-6 div{
+#connect .connect-header{
     width: 80%;
 }
 
@@ -226,8 +226,8 @@ body{
     /* margin-top: 150px;
     margin-left: 175px; */
     position: absolute;
-    left: -325px;
-    top: 160px;
+    left: -300px;
+    top: 150px;
     border-radius: 5px;
 }
 
@@ -341,8 +341,61 @@ footer .dropdown-item:hover{
     color: white !important;
     background-color: #0a66c2;
 }
-
-
+@media (max-width: 1492px){
+    #forward-right{
+        margin-top: -30px;
+    }
+}
+@media (max-width: 1273px){
+    #forward-right{
+        margin-top: -50px;
+    }
+}
+@media (max-width: 1256px){
+    #forward-right{
+        margin-top: -70px;
+    }
+}
+@media (max-width: 1189px){
+    #forward{
+        padding-right: 150px;
+    }
+}
+@media (max-width: 1144px){
+    #forward{
+        padding-right: 130px;
+    }
+}
+@media (max-width: 1114px){
+    #forward{
+        padding-right: 110px;
+    }
+}
+@media (max-width: 1085px){
+    #forward h2{
+        font-size: 36px;
+    }
+}
+@media (max-width: 1037px){
+    #forward{
+        padding-right: 80px;
+    }
+}
+@media (max-width: 947px){
+    #forward h3{        
+        font-size: 34px;
+    }
+}
+@media (max-width: 869px){
+    #forward-right{        
+        margin-top: -85px;
+    }
+}
+@media (max-width: 861px){
+    #forward-right{        
+        margin-top: -100px;
+    }
+}
 @media (max-width: 1200px) { 
     #links > div{
         margin-left: 0 !important;
@@ -360,6 +413,11 @@ footer .dropdown-item:hover{
     #functions img{
         margin-top: 10px;
     }
+    #connect .connect-header{
+        width: 95%;
+    }
+   
+
 }
 
 @media (max-width: 992px) { 
@@ -397,6 +455,25 @@ footer .dropdown-item:hover{
     }
     #functions img{
         margin-top: 95px;
+    }
+    .connect-left{
+        width: 40%;
+        float: left;
+    }
+    .connect-right{
+        width: 60%;
+        float: left;
+        padding-left: 30px;
+    }
+    .connect-right h2{
+        font-size: 42px !important;
+    }
+    #connect img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    #forward{
+        padding-right: 50px;
     }
 }
 
@@ -456,6 +533,7 @@ footer .dropdown-item:hover{
     #functions img{
         width: 70%;
         margin-top: 10px;
+        margin-left: 0 !important;
     }
     #functions-right{
         text-align: center;
@@ -464,11 +542,34 @@ footer .dropdown-item:hover{
         width: 100%;
     }
     #functions{
-        padding-top: 35px;
-        padding-bottom: 35px;
+        padding: 50px 16px;
     }
     #prev-next{
-        margin-bottom: 0px !important;
+        margin-bottom: -25px !important;
+    }
+    .connect-left{
+        width: 100%;
+        padding-left: 0;
+    }
+    .connect-right{
+        width: 100%;
+        padding-left: 0;
+    }
+    #connect img{
+        width: 50%;
+        margin-bottom: -20px;
+    }
+    #connect h2{
+        font-size: 30px !important;
+        font-weight: 500;
+        margin-bottom: -20px;
+    }
+    #connect #left{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    #connect{
+        padding-top: 50px;
     }
 }
 

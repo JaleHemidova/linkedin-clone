@@ -206,8 +206,12 @@ body{
     padding: 225px 300px;
     background-color: #F4FAFF;
     padding-right: 180px;
-    /* z-index: -1; */
     position: relative;
+}
+
+#forward-right{
+    flex-direction: column;
+    justify-content: center;
 }
 
 #forward h2 {
@@ -223,11 +227,9 @@ body{
 }
 
 #yt-video{
-    /* margin-top: 150px;
-    margin-left: 175px; */
     position: absolute;
     left: -300px;
-    top: 150px;
+    top: 145px;
     border-radius: 5px;
 }
 
@@ -310,10 +312,13 @@ footer small{
     color: rgba(0,0,0,0.6);
 }
 
-#footer-links a{
+footer .footer-links{
     font-size: 12px;
     color: rgb(102, 102, 102);
     font-weight: 600;
+}
+footer .footer-links:hover{
+    color: #0a66c2;
 }
 
 #dropdownMenuButton-2{
@@ -325,7 +330,7 @@ footer small{
 }
 
 #dropdownMenuButton-2:hover{
-    color:#0a66c2 ;
+    color:#0a66c2;
 }
 footer .dropdown-menu{
     width: 200px !important;
@@ -341,61 +346,48 @@ footer .dropdown-item:hover{
     color: white !important;
     background-color: #0a66c2;
 }
-@media (max-width: 1492px){
+@media (max-width: 1493px){
     #forward-right{
         margin-top: -30px;
+    }
+    #forward{
+        padding-bottom: 195px;
     }
 }
 @media (max-width: 1273px){
     #forward-right{
         margin-top: -50px;
     }
+    #forward{
+        padding-bottom: 175px;
+    }
 }
-@media (max-width: 1256px){
+@media (max-width: 1257px){
     #forward-right{
         margin-top: -70px;
     }
-}
-@media (max-width: 1189px){
     #forward{
-        padding-right: 150px;
+        padding-bottom: 155px;
     }
 }
-@media (max-width: 1144px){
+@media (max-width: 1137px){
+    #forward-right{
+        margin-top: -90px;
+    }
     #forward{
-        padding-right: 130px;
+        padding-bottom: 135px;
     }
 }
-@media (max-width: 1114px){
+@media (max-width: 1073px){
+    #forward-right{
+        margin-top: -110px;
+    }
     #forward{
-        padding-right: 110px;
+        padding-bottom: 115px;
     }
 }
-@media (max-width: 1085px){
-    #forward h2{
-        font-size: 36px;
-    }
-}
-@media (max-width: 1037px){
-    #forward{
-        padding-right: 80px;
-    }
-}
-@media (max-width: 947px){
-    #forward h3{        
-        font-size: 34px;
-    }
-}
-@media (max-width: 869px){
-    #forward-right{        
-        margin-top: -85px;
-    }
-}
-@media (max-width: 861px){
-    #forward-right{        
-        margin-top: -100px;
-    }
-}
+
+
 @media (max-width: 1200px) { 
     #links > div{
         margin-left: 0 !important;
@@ -416,8 +408,9 @@ footer .dropdown-item:hover{
     #connect .connect-header{
         width: 95%;
     }
-   
-
+    #forward{
+        padding-right: 145px;
+    }
 }
 
 @media (max-width: 992px) { 
@@ -472,8 +465,26 @@ footer .dropdown-item:hover{
         margin-top: 50px;
         width: 100%;
     }
+    #yt-video{
+        top: -275px;
+        left: 20px;
+        width: 95%;
+        height: 300px;
+    }
+    #forward-right{
+        margin-top: 0;
+    }
+    #forward-right h2{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    #forward-right h3{
+        font-size: 24px;
+        font-weight: 400;
+    }
     #forward{
-        padding-right: 50px;
+        padding: 56px 16px;
+        margin-top: 275px;
     }
 }
 
@@ -571,6 +582,32 @@ footer .dropdown-item:hover{
     #connect{
         padding-top: 50px;
     }
+    #yt-video{
+        height: 200px;
+        top: -175px;
+        left: 16px;
+    }
+    #forward{
+        margin-top: 175px;
+    }
+    #get-started{
+        background-image: none;
+        padding: 0;
+        margin-bottom: 60px;
+        height: auto;
+    }
+    #get-started h2{
+        font-size: 32px;
+        font-weight: 300;
+    }
+    #get-started a{
+        padding: 10px 20px;
+        margin-top: 10px !important;
+    }
+    /* footer #footer-links{
+        display:;
+    } */
+
 }
 
 @media (max-width: 576px) { 

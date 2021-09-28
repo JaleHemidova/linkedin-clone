@@ -2,13 +2,13 @@ body{
     overflow-x: hidden;
 }
 
-#logo{
+#logo, #sign-up-logo{
     color: #0A66C2;
     font-weight: bold;
     font-size: 32px;
 }
 
-#logo-icon{
+#logo-icon, #sign-up-logo-icon{
     margin-left: 3px;
 }
 
@@ -317,6 +317,11 @@ footer .footer-links{
     color: rgb(102, 102, 102);
     font-weight: 600;
 }
+
+footer .footer-links-left .footer-links{
+    line-height: 35px;
+}
+
 footer .footer-links:hover{
     color: #0a66c2;
 }
@@ -327,11 +332,17 @@ footer .footer-links:hover{
     font-weight: 600;
     border: none;
     background-color: transparent;
+    line-height: 31px;
 }
 
 #dropdownMenuButton-2:hover{
     color:#0a66c2;
 }
+
+footer .dropdown{
+    margin-left: 15px !important;
+}
+
 footer .dropdown-menu{
     width: 200px !important;
     overflow-x: hidden;
@@ -341,6 +352,7 @@ footer .dropdown-menu{
 footer .dropdown-item{
     color: #0a66c2 !important;
     font-weight: 400 !important;
+    font-size: 12px;
 }
 footer .dropdown-item:hover{
     color: white !important;
@@ -467,8 +479,8 @@ footer .dropdown-item:hover{
     }
     #yt-video{
         top: -275px;
-        left: 20px;
-        width: 95%;
+        left: 16px;
+        width: 96%;
         height: 300px;
     }
     #forward-right{
@@ -485,6 +497,10 @@ footer .dropdown-item:hover{
     #forward{
         padding: 56px 16px;
         margin-top: 275px;
+    }
+    .footer-links{
+        padding-left: 0px !important;
+        padding-right: 5px;
     }
 }
 
@@ -583,9 +599,9 @@ footer .dropdown-item:hover{
         padding-top: 50px;
     }
     #yt-video{
+        width: 95%;
         height: 200px;
         top: -175px;
-        left: 16px;
     }
     #forward{
         margin-top: 175px;
@@ -604,10 +620,6 @@ footer .dropdown-item:hover{
         padding: 10px 20px;
         margin-top: 10px !important;
     }
-    /* footer #footer-links{
-        display:;
-    } */
-
 }
 
 @media (max-width: 576px) { 
@@ -617,4 +629,26 @@ footer .dropdown-item:hover{
     #navbarSupportedContent{
         font-size: 12px;
     }
+    #yt-video{
+        width: 91%;
+    }
 }
+/* ******************************************************************
+                            REGISTER PAGE 
+*********************************************************************/
+#sign-up-body{
+    background-color: #F3F2EF;
+}
+#sign-up-body header h1{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 16px;
+}
+#sign-up-body main div{
+    margin: 0 auto;
+    border-radius: 7px;
+}
+#sign-up-body main div small{
+    font-size: 11px;
+}
+
